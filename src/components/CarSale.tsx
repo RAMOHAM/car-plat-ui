@@ -37,10 +37,10 @@ export const CarSale = (carItem: CarItemData) => {
                 </CardBody>
                 <CardFooter className="flex flex-col text-small bg-white p-4 rounded-b-lg">
                     <div className="flex justify-between w-full">
-                        <b className="text-blue-600 font-bold">{carItem.name}</b>
-                        <p className="text-blue-600 font-bold">{carItem.price}</p>
+                        <b className="text-blue-950 font-bold">{carItem.name}</b>
+                        <p className="text-blue-950 font-bold">{carItem.price}</p>
                     </div>
-                    <Button className="self-end bg-blue-600 text-white p-2 mt-2 w-20 rounded-2xl">Buy</Button>
+                    <Button className="self-end bg-blue-950 text-white p-2 mt-2 w-20 rounded-2xl">Buy</Button>
                 </CardFooter>
             </Card>
         </div>

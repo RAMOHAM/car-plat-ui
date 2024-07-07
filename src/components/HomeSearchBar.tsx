@@ -9,7 +9,7 @@ export const HomeSearchBar = () => {
                 placeholder="Search..."
                 className="flex-1 p-2 text-black border border-gray-300 rounded-l-md focus:outline-none h-10"
             />
-            <div className="p-2 text-center bg-blue-500 text-white rounded-r-md w-10 h-10 flex items-center justify-center">
+            <div className="p-2 text-center bg-blue-950 text-white rounded-r-md w-10 h-10 flex items-center justify-center">
                 <FontAwesomeIcon icon={faSearch} className="text-sm"/>
             </div>
         </div>

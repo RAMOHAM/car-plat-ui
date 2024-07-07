@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Toyota Camry",
+    "price": "$25,000"
+  },
+  {
+    "name": "Honda Civic",
+    "price": "$22,500"
+  },
+  {
+    "name": "Ford Mustang",
+    "price": "$35,000"
+  },
+  {
+    "name": "Chevrolet Malibu",
+    "price": "$28,000"
+  },
+  {
+    "name": "Nissan Altima",
+    "price": "$24,500"
+  },
+  {
+    "name": "Volkswagen Golf",
+    "price": "$21,000"
+  },
+  {
+    "name": "BMW 3 Series",
+    "price": "$40,000"
+  },
+  {
+    "name": "Mercedes-Benz C-Class",
+    "price": "$45,000"
+  },
+  {
+    "name": "Audi A4",
+    "price": "$42,000"
+  },
+  {
+    "name": "Lexus ES",
+    "price": "$38,000"
+  },
+  {
+    "name": "Hyundai Sonata",
+    "price": "$23,500"
+  },
+  {
+    "name": "Kia Optima",
+    "price": "$22,000"
+  },
+  {
+    "name": "Subaru Impreza",
+    "price": "$26,000"
+  },
+  {
+    "name": "Mazda CX-5",
+    "price": "$30,000"
+  },
+  {
+    "name": "Jeep Grand Cherokee",
+    "price": "$34,000"
+  }
+]
