@@ -1,7 +1,7 @@
-import {CarSale} from "@/components/CarSale";
-import {NavbarComponent} from "@/components/NavbarComponent";
-import {HomeSearchBar} from "@/components/HomeSearchBar";
-import {MotorAppsHeading} from "@/components/MotorAppsHeading";
+import {CarSale} from "@/components/homepage/CarSale";
+import {NavbarComponent} from "@/components/homepage/NavbarComponent";
+import {HomeSearchBar} from "@/components/homepage/HomeSearchBar";
+import {MotorAppsHeading} from "@/components/homepage/MotorAppsHeading";
 import carData from "../mock/carData.json"
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
                   <HomeSearchBar/>
               </div>
           </div>
-          <div className="grid grid-cols-4 gap-4 pt-5">
+          <div className="grid grid-cols-4 gap-4 pt-10">
               {carData.map((car, index) => (
                   <CarSale key={index} name={car.name} price={car.price}/>
               ))}
