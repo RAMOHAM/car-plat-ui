@@ -2,6 +2,11 @@
 
 import { motion } from "framer-motion";
 
+/**
+ * The main heading displaying the title Motor Apps Platform,
+ * using framer motion for the fade-in effect
+ */
+
 export const MotorAppsHeading = () => {
     const heading = "Motor Apps Platform";
 

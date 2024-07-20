@@ -1,6 +1,10 @@
 import {Button} from "@nextui-org/react";
 
-
+/**
+ * Login page for the application, in which users who login in will have
+ * their details authenticated by the backend service, before being allowed
+ * to perform purchasing and selling options
+ */
 export default function Login() {
         return (
             <main className="flex justify-center items-center h-screen bg-gray-950 w-screen">
