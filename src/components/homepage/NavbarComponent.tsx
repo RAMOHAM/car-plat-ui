@@ -33,6 +33,11 @@ export const NavbarComponent = () => {
                             Login
                         </Button>
                     </NavbarItem>
+                    <NavbarItem>
+                        <Button as={Link} className="mr-5 text-blue-950 bg-white text-lg font-bold pl-5 pr-5 pt-2 pb-2 rounded-2xl" href="/register" variant="flat">
+                            Register
+                        </Button>
+                    </NavbarItem>
                 </NavbarContent>
             </Navbar>
         </>
